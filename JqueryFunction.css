@@ -1,0 +1,410 @@
+*{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+/*Click Function*/
+#function1{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function1 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function1 p{
+margin-left: 114px;
+}
+#function1 h3{
+margin-left: 132px;
+}
+/*Focus Function*/
+#function2{
+width: 491px;
+height: 103px;
+margin-top: 17px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function2 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function2 p{
+margin-left: 114px;
+}
+#function2 h3{
+margin-left: 132px;
+}
+span{
+	display: none;
+}
+/*AddClass Function*/
+#function3{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function3 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function3 p{
+margin-left: 114px;
+}
+#function3 h3{
+margin-left: 132px;
+}
+.color{
+color: blue;
+}
+/*Value Function*/
+#function4{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function4 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function4 p{
+margin-left: 114px;
+}
+#function4 h3{
+margin-left: 132px;
+}
+#function5{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function5 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function5 p{
+margin-left: 114px;
+}
+#function5 h3{
+margin-left: 132px;
+}
+/*Attribute Function*/
+#function6{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function6 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function6 p{
+margin-left: 114px;
+}
+#function6 h3{
+margin-left: 132px;
+}
+/*HTML Function*/
+#function7{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function7 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function7 p{
+margin-left: 114px;
+}
+#function7 h3{
+margin-left: 132px;
+}
+/*Data Function*/
+#function8{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function8 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function8 p{
+margin-left: 114px;
+}
+#function8 h3{
+margin-left: 132px;
+}
+/*Before Function*/
+#function9{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function9 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function9 p{
+margin-left: 114px;
+}
+#function9 h3{
+margin-left: 132px;
+}
+/*After Function*/
+#function10{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function10 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function10 p{
+margin-left: 114px;
+}
+#function10 h3{
+margin-left: 132px;
+}
+
+/*Append Function*/
+#function11{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function11 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function11 p{
+margin-left: 114px;
+}
+#function11 h3{
+margin-left: 132px;
+}
+/*Hide Function*/
+#function12{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function12 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function12 p{
+margin-left: 114px;
+}
+#function12 h3{
+margin-left: 132px;
+}
+/*Show Function*/
+#function13{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function13 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function13 p{
+margin-left: 114px;
+}
+#function13 h3{
+margin-left: 132px;
+}
+/*Toggle Function*/
+#function14{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function14 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function14 p{
+margin-left: 114px;
+}
+#function14 h3{
+margin-left: 132px;
+}
+/*Fadein Function*/
+#function15{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function15 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function15 p{
+margin-left: 114px;
+}
+#function15 h3{
+margin-left: 132px;
+}
+/*FadeOut Function*/
+#function16{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function16 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function16 p{
+margin-left: 114px;
+}
+#function16 h3{
+margin-left: 132px;
+}
+/*Slideup Function*/
+#function17{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function17 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function17 p{
+margin-left: 114px;
+}
+#function17 h3{
+margin-left: 132px;
+}
+/*SlideDown Function*/
+#function18{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function18 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function18 p{
+margin-left: 114px;
+}
+#function18 h3{
+margin-left: 132px;
+}
+/*SlideToggle Function*/
+#function19{
+width: 491px;
+height: 103px;
+margin-top: 38px;
+margin-left: 159px;
+border-bottom: 2px solid black; 
+}
+#function19 button{
+height: 22px;
+width: 113px;
+padding: 0px 0px 0px 0px;
+margin: 10px 0px 10px -19px;
+border: 2px solid black;
+}	
+#function19 p{
+margin-left: 114px;
+}
+#function19 h3{
+margin-left: 132px;
+}

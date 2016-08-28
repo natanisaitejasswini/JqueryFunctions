@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery Functions</title>
+	<link rel="stylesheet" type="text/css" href="jqueryFunction.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Click
+			$('#function1 button').click(function(){
+				alert('Hello World!');
+			});
+			// Focus
+			$('#function2 button').focus(function(){
+				$('#function2 span').css("display","inline").fadeOut(2000);
+			});
+			// Add Class
+			$('#function3 button').click(function(){
+				$('#function3 h3').addClass("color");
+			});
+			// Value Function
+			$('#function4 button').click(function(){
+				alert($('#function4 button').val());
+			});
+			// Text Function
+			$('#function5 button').click(function(){
+				$('#function5 h3').text('JQuery text()');
+			});
+			// Attribute Function
+			$('#function6 button').click(function(){
+				alert($('#function6 h3').attr('title'));
+			});
+			// Html Function
+			$('#function7 button').click(function(){
+				$('#function7 h3').html('JQuery <a href="">html()</a>');
+			});
+			// Data Function
+			$('#function8 button').click(function(){
+				$('#function8 h3').data("test",{first: "jquery", last: "Done"});
+				$('#function8 h3 span:first').text($('#function8 h3').data('test').first);
+				$('#function8 h3 span:last').text($('#function8 h3').data('test').last);
+				console.log('done');
+			});
+			// Before Function
+			$('#function9 button').click(function(){
+				$('#function9 h3').before('Jquery');
+			});
+			// After Function
+			$('#function10 button').click(function(){
+				$('#function10 h3').after('Jquery');
+			});
+			// Append Function
+			$('#function11 button').click(function(){
+				$('#function11 h3').append('Jquery');
+			});
+			// Hide Function
+			$('#function12 button').click(function(){
+				$('#function12 h3').hide();
+			});
+			// Show Function
+			$('#function13 button').click(function(){
+				$('#function12 h3').show();
+			});
+			// Toggle Function
+			$('#function14 button').click(function(){
+				$('#function14 h3').toggle();
+			});
+			// Fadein Function
+			$('#function15 button').click(function(){
+				$('#function15 h3').fadeOut('slow');
+			});
+			// FadeOut Function
+			$('#function16 button').click(function(){
+				$('#function15 h3').fadeIn('slow');
+			});
+			// SlideUp Function
+			$('#function17 button').click(function(){
+				$('#function17 h3').slideUp();
+			});
+			// SlideDown Function
+			$('#function18 button').click(function(){
+				$('#function17 h3').slideDown();
+			});
+			// SlideToggle Function
+			$('#function19 button').click(function(){
+				$('#function19 h3').slideToggle();
+			});
+		})
+	</script>
+</head>
+<body>
+	<div id="function1">
+		<h3>Click Function</h3>
+		<button>Click Me</button>
+		<p>Click the button to know how function works</p>
+	</div>
+	<div id="function2">
+		<h3>Focus Function</h3>
+		<button>Focus</button>
+		<p>Focus attaches an event to occur of displaying text when the button is clicked.</p>
+		<span>Nice to meet You</span>
+	</div>
+	<div id="function3">
+		<h3>AddClass Function</h3>
+		<button>AddClass</button>
+		<p>Click the button to add class 'color' to the heading.</p>
+	</div>
+	<div id="function4">
+		<h3>Value Function</h3>
+		<button value="Name">Value val()</button>
+		<p>Click the button to reterive the value of button.</p>
+	</div>
+	<div id="function5">
+		<h3>Text Function</h3>
+		<button>Change Text .text</button>
+		<p>Click the button to set the text for heading.</p>
+	</div>
+	<div id="function6">
+		<h3 title="Returned Attribute Value..">Attribute Function</h3>
+		<button>attr()</button>
+		<p>Click the button to get the attribute value for title.</p>
+	</div>
+	<div id="function7">
+		<h3>Html Function</h3>
+		<button>.html()</button>
+		<p>Click the button to change the heading to a link</p>
+	</div>
+	<div id="function8">
+		<h3>Data<span></span>Function<span></span></h3>
+		<button>.data()</button>
+		<p>Click  the button add Jquery</p>
+	</div>
+	<div id="function9">
+		<h3>Before Function</h3>
+		<button>.before()</button>
+		<p>Click the button to add text before heading starts</p>
+	</div>
+	<div id="function10">
+		<h3>After Function</h3>
+		<button>.after()</button>
+		<p>Click the button to add text after heading</p>
+	</div>
+	<div id="function11">
+		<h3>Append Function </h3>
+		<button>.append()</button>
+		<p>Click the button to add text at the end of heading </p>
+	</div>
+	<div id="function12">
+		<h3>Hide Function </h3>
+		<button>.hide()</button>
+		<p>Click the button to hide text </p>
+	</div>
+	<div id="function13">
+		<h3>Show Function </h3>
+		<button>.show()</button>
+		<p>Click the button to show hidden text </p>
+	</div>
+	<div id="function14">
+		<h3>Toggle Function </h3>
+		<button>.toggle()</button>
+		<p>Click the button to toggle heading </p>
+	</div>
+	<div id="function15">
+		<h3>FadeOut Function </h3>
+		<button>.fadeOut()</button>
+		<p>Click the button to fideout headingfidein hidden heading in Hide Function</p>
+	</div>
+	<div id="function16">
+		<h3>FadeIn Function </h3>
+		<button>.fadeIn()</button>
+		<p>Click the button to fidein hidden heading of above Function</p>
+	</div>
+	<div id="function17">
+		<h3>SlideUp Function </h3>
+		<button>.slideUp()</button>
+		<p>Click the button to slideUp heading </p>
+	</div>
+	<div id="function18">
+		<h3>SlideDown Function </h3>
+		<button>.slideDown()</button>
+		<p>Click the button to slidedown heading of SlideUp Function</p>
+	</div>
+	<div id="function19">
+		<h3>SlideToggle Function </h3>
+		<button>.slideToggle()</button>
+		<p>Click the button to slidetoggle heading i.e to perform slideIn and slideDown repeatedly</p>
+	</div>
+
+
+
+
+</body>
+</html>
